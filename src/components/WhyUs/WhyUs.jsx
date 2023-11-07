@@ -9,9 +9,9 @@ export default function WhyUs() {
         Why Choose us?
       </h1>
       <div className="flex gap-6 justify-center">
-        <Card />
-        <Card />
-        <Card />
+        <Card percent="99%" />
+        <Card percent="97%" />
+        <Card percent="95%" />
       </div>
     </div>
   );
