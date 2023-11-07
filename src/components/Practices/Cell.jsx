@@ -1,9 +1,7 @@
 export default function Cell({ span, img, title }) {
   return (
     <div
-      className={`h-44 relative overflow-hidden ${
-        span ? `col-span-${span}` : ""
-      }`}
+      className={`h-44 relative overflow-hidden ${span ? `col-span-2` : ""}`}
     >
       <img
         src={img}
