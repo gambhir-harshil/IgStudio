@@ -20,7 +20,7 @@ export default function Banner() {
         <EmailInput />
       </div>
       <div>
-        <img src="./hero.png" alt="" />
+        <img src="./hero.png" alt="hero" loading="lazy" />
       </div>
     </div>
   );
