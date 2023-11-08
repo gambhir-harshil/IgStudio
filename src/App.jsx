@@ -1,3 +1,4 @@
+import Faq from "./components/FAQ/Faq";
 import HappyClients from "./components/HappyClients/HappyClients";
 import Hero from "./components/Hero/Hero";
 import Practices from "./components/Practices/Practices";
@@ -12,6 +13,7 @@ export default function App() {
       <Practices />
       <HappyClients />
       <Team />
+      <Faq />
     </div>
   );
 }
