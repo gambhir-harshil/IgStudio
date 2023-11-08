@@ -6,9 +6,9 @@ export default function EmailInput() {
       <input
         type="email"
         placeholder="Enter your email address"
-        className="px-6 py-5 rounded-full bg-primary placeholder:text-white/30 placeholder:font-medium w-full"
+        className="w-full px-6 py-5 border-2 rounded-full outline-none border-tertiary bg-primary placeholder:text-white/30 placeholder:font-medium focus:border-accent"
       />
-      <button className=" absolute w-32 bg-accent py-3 rounded-full right-2">
+      <button className="absolute w-32 py-3 rounded-full bg-accent right-2">
         Let's talk
       </button>
     </div>

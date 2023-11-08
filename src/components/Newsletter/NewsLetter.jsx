@@ -8,12 +8,12 @@ export default function NewsLetter() {
         <div className="flex gap-2">
           <input
             type="text"
-            className="px-8 py-4 bg-white placeholder:italic rounded-l-xl"
+            className="px-8 py-4 bg-white border-2 outline-none focus:border-accent placeholder:italic rounded-l-xl"
             placeholder="Name:"
           />
           <input
             type="text"
-            className="px-8 py-4 bg-white placeholder:italic"
+            className="px-8 py-4 bg-white border-2 outline-none placeholder:italic focus:border-accent"
             placeholder="Email"
           />
           <button className="px-8 py-4 font-semibold uppercase bg-accent rounded-r-xl">
