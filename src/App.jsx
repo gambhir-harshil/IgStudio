@@ -1,6 +1,7 @@
 import HappyClients from "./components/HappyClients/HappyClients";
 import Hero from "./components/Hero/Hero";
 import Practices from "./components/Practices/Practices";
+import Team from "./components/Team/Team";
 import WhyUs from "./components/WhyUs/WhyUs";
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
       <WhyUs />
       <Practices />
       <HappyClients />
+      <Team />
     </div>
   );
 }
